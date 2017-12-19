@@ -1,0 +1,204 @@
+/*Prima Temple*/
+/*-------------- 
+   Global-area
+--------------*/   
+
+body{margin:0;
+    padding:0;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+section{
+	padding:100px 0;
+}
+.container{
+	width:95%;
+}	
+
+
+/*---------------
+  Nav-area
+----------------*/
+
+
+
+
+/*-----------------
+  Slider-area
+------------------*/
+#slider-area{
+	padding:100px 0;
+	text-align:center;
+	margin:0 auto;
+	height:600px;
+}
+.mySlides-container{
+	padding:50px 0;
+	width:100%;
+	margin-top:20px;
+	box-shadow: 0 0 10px #252525;
+}
+@media screen and (max-width: 580px){
+    #slider-area{
+		height:300px;
+		margin-bottom:0;
+	}
+	.mySlides-container img{
+	    width:100%;
+	}
+	.mySlides-container{
+		padding:80px 0;
+		margin:0 auto;
+		height:380px;
+		width:95%;
+	}
+}
+@media screen and (max-width: 320px){
+    #slider-area{
+		margin:0 auto;
+	}
+	.mySlides-container img{
+	    width:100%;
+	}
+	.mySlides-container{
+		padding:50px 0;
+		margin:0 auto;
+		height:250px;
+		width:95%;
+	}
+
+}
+.mySlides-container img{
+   margin:0 auto;
+}
+/*--------------
+  Services-area
+----------------*/
+#services{
+	padding:100px 0;
+}
+#services .section-heading{
+	padding:100px 0;
+}
+/*-------------
+   About-Us
+----------------*/
+#about{
+	padding:200px 0;
+}
+#team{
+	padding:100px 0;
+}
+#team .box{
+	box-shadow:0 0 10px #252525;
+}
+
+#portfolio .box{
+	box-shadow:0 0 10px #252525;
+}
+
+
+section#contact {
+  background-color: #222222;
+   background-image: url('../images_portfolio2/logo19.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#contact .section-heading {
+  color: white;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+
+
+/* my footer */
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #fed136;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+	
